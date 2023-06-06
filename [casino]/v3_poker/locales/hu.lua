@@ -1,0 +1,58 @@
+Locales['hu'] = {
+    -- notifications
+    ['chair_occupied'] = 'Ez a hely foglalt!',
+    ['no_react'] = 'Nem reagáltál időben a Díler kérdésére ezért automatikusan bedobtad.',
+    ['no_bet_input'] = 'Nem adtál meg tétet!',
+    ['not_enough_chips'] = 'Nincs elég chipsed!',
+    ['not_enough_chips_next'] = 'Nincs elég chipsed hogy fogadj a Pair Plus-ra, mivel a rendszer úgy érzékelte hogy nem maradna elég chipsed hogy megjátszd a kezed.',
+    ['not_enough_chips_third'] = 'Nem tehetsz meg ekkora tétet, mert nem maradna elég chipsed hogy játssz a végjátékban.',
+    ['not_enough_chips_toplay'] = 'Nincs elég chipsed hogy játssz!',
+    ['already_betted'] = 'Már tettél tétet!',
+    ['lose'] = 'Vesztettél!',
+    -- formatted notif
+    ['dealer_not_qual'] = 'Döntetlen.\nA Díler nem kvalifikált a játékra a kezével.\nVisszakaptál %s chipset!',
+    ['dealer_not_qual_ante'] = 'Döntetlen.\nA Díler nem kvalifikált a játékra.\nVisszakaptál %s chipset! (Ante szorzó: x%s)',
+    ['player_won_ante'] = 'Nyertél!\nKaptál %s chipset! (Ante szorzó: x%s)',
+    ['player_won'] = 'Nyertél!\nKaptál %s chipset.',
+    ['pair_won'] = 'Nyertél %s chipset a Pair Plus fogadásoddal. (Pair szorzó: x%s)',
+    -- hud
+    ['current_bet_input'] = 'TÉT:',
+    ['current_player_chips'] = 'CHIPS:',
+    ['table_min_max'] = 'MIN/MAX:',
+    ['remaining_time'] = 'IDÖ:',
+    -- top left
+    ['waiting_for_players'] = 'Várakozás a ~b~játékosokra~w~...\n',
+    ['clearing_table'] = 'Asztal letakarítása...\n~b~Következö játszma hamarosan kezdetét veszi!\n',
+    ['dealer_showing_hand'] = 'A ~r~Díler~w~ mutatja a lapjait!\n',
+    ['players_showing_hands'] = 'Játékosok kártyái leleplezése...\n',
+    ['dealing_cards'] = 'Kezek leosztása a játékosoknak...\n',
+    -- inputs
+    ['fold_cards'] = 'Bedob',
+    ['play_cards'] = 'Játék',
+    ['leave_game'] = 'Játék elhagyása',
+    ['raise_bet'] = 'Tét emelése',
+    ['reduce_bet'] = 'Tét csökkentése',
+    ['custom_bet'] = 'Egyedi tét',
+    ['place_bet'] = 'Tét megrakása',
+    ['place_pair_bet'] = 'Pair Plus tét megrakása',
+    -- gtao ui
+    ['tcp'] = '<C>[Aquiver]</C> ~b~Three Card Poker',
+    ['sit_down_table'] = '~h~Játék elkezdése',
+    ['description'] = 'Játék leírás',
+    ['desc_1'] = 'TCP_DIS1', -- this is Rockstar Setuped default, this will automaticly change if you are using german language etc.
+    ['desc_2'] = 'TCP_DIS2',
+    ['desc_3'] = 'TCP_DIS3',
+    ['description_info'] = 'Hogy müködik a játék?',
+    ['rule_1'] = 'TCP_RULE_1',
+    ['rule_2'] = 'TCP_RULE_2',
+    ['rule_3'] = 'TCP_RULE_3',
+    ['rule_4'] = 'TCP_RULE_4',
+    ['rule_5'] = 'TCP_RULE_5',
+    ['rule_header_1'] = 'TCP_RULE_1T',
+    ['rule_header_2'] = 'TCP_RULE_2T',
+    ['rule_header_3'] = 'TCP_RULE_3T',
+    ['rule_header_4'] = 'TCP_RULE_4T',
+    ['rule_header_5'] = 'TCP_RULE_5T',
+    ['rules'] = 'Játékszabályok',
+    ['rules_info'] = 'Játékszabályok és egyéb dolgok amiket tudnod kellhet.'
+}
