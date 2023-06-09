@@ -184,6 +184,14 @@
       "routeName": "calcu",
       "MenuPage": true,
       "blockedjobs": [""]
+    },
+    {
+      "name": "gacha",
+      "icons": "static/img/icons/case.png",
+      "detail": "gacha app",
+      "routeName": "gacha",
+      "MenuPage": true,
+      "blockedjobs": [""]
     }
   ],
 

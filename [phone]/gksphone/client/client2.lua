@@ -28,7 +28,6 @@ function GalleryImage(gallery)
   SendNUIMessage({event = 'gallery_app', gallery = gallery})
 end
 
-
 RegisterNUICallback('getAppGPS', function(data, cb)
   QBCore.Functions.TriggerCallback('gksphone:getgps', function(gps)
     GetGPS(gps)

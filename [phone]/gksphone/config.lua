@@ -2,7 +2,7 @@ Config = {}
 Config.CoreName = "QBCore"
 Config.Core = "QBCore:GetObject"
 Config.CoreNotify = "QBCore:Notify"
-Config.OpenPhone = 'm'   --## Phone open key ## https://docs.fivem.net/docs/game-references/input-mapper-parameter-ids/keyboard/
+Config.OpenPhone = 'U'   --## Phone open key ## https://docs.fivem.net/docs/game-references/input-mapper-parameter-ids/keyboard/
 Config.Locale       = 'en'
 Config.Phones       = {"phone"}
 Config.Fahrenheit   = false
@@ -31,7 +31,7 @@ Config.BankLimit = 5000 -- # Minimum money transfer for discord webhook
 
 -- Phone Settings - Start --
 
-Config.UseMumbleVoIP    = false -- Use Frazzle's Mumble-VoIP Resource (Recomended!) https://github.com/FrazzIe/mumble-voip
+Config.UseMumbleVoIP    = true -- Use Frazzle's Mumble-VoIP Resource (Recomended!) https://github.com/FrazzIe/mumble-voip
 Config.PMAVoice         = true
 Config.UseTokoVoIP      = false
 Config.SaltyChat        = false

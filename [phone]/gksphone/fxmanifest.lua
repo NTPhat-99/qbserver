@@ -33,6 +33,7 @@ files {
 
 }
 
+
 client_script {
 	'locales.lua',
 	"locales/en.lua",
@@ -49,7 +50,8 @@ client_script {
 	"client/instagram.lua",
 	"client/valet.lua",
 	"client/client2.lua",
-	"client/youtube.lua"
+	"client/youtube.lua",
+	'@ak4y-caseOpening/client/main.lua'
 }
 
 server_script {
